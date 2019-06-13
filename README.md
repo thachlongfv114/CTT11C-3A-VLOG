@@ -3,6 +3,8 @@
     + Giao diện đơn giản, dễ sử dụng.<br/>
     + Thể hiện hoạt động, thông tin của lớp CTT11CĐ3A.</br>
     </p>
+  * Cơ sở dữ liệu SINH VIÊN có 1 bảng, được tạo trực tiếp trên VISUAL *<br/>
+  <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62540748_288935521881246_7671760366111555584_n.png?_nc_cat=107&_nc_oc=AQl4Om9HgScDg1RRdtRInN3XU1VhnK-bwF6tIASWQgsPZVx0ePOYnjSKZ3QS-Ery_uI&_nc_ht=scontent.fdad2-1.fna&oh=31968f8ffa18db464bc9c2d4490dcc3f&oe=5D80DA3D"/>
 <a>
   Giao diện có 4 phần.TRANG CHỦ, DANH SÁCH, ALBUM, LIÊN HỆ: <br/>
     -Thay đổi THEME bên góc phải màng hình.<br/>
