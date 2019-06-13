@@ -4,6 +4,34 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
+    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" Width="900" DataKeyNames="Ma" DataSourceID="SqlDataSource1" Font-Size="X-Large" EmptyDataText="There are no data records to display.">
+    <Columns>
+        <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ShowSelectButton="True" />
+        <asp:BoundField DataField="Ma" HeaderText="Ma" ReadOnly="True" SortExpression="Ma" />
+        <asp:BoundField DataField="Ten" HeaderText="Ten" SortExpression="Ten" />
+    </Columns>
+</asp:GridView>
+    <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Ma" DataSourceID="SqlDataSource1" DefaultMode="Insert" Font-Size="X-Large" Height="50px" Width="525px">
+        <Fields>
+            <asp:BoundField DataField="Ma" HeaderText="Ma" ReadOnly="True" SortExpression="Ma" />
+            <asp:BoundField DataField="Ten" HeaderText="Ten" SortExpression="Ten" />
+            <asp:CommandField ShowInsertButton="True" />
+        </Fields>
+    </asp:DetailsView>
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DatabaseConnectionString1 %>" DeleteCommand="DELETE FROM [Table] WHERE [Ma] = @Ma" InsertCommand="INSERT INTO [Table] ([Ma], [Ten]) VALUES (@Ma, @Ten)" ProviderName="<%$ ConnectionStrings:DatabaseConnectionString1.ProviderName %>" SelectCommand="SELECT [Ma], [Ten] FROM [Table]" UpdateCommand="UPDATE [Table] SET [Ten] = @Ten WHERE [Ma] = @Ma">
+    <DeleteParameters>
+        <asp:Parameter Name="Ma" Type="Int32" />
+    </DeleteParameters>
+    <InsertParameters>
+        <asp:Parameter Name="Ma" Type="Int32" />
+        <asp:Parameter Name="Ten" Type="String" />
+    </InsertParameters>
+    <UpdateParameters>
+        <asp:Parameter Name="Ten" Type="String" />
+        <asp:Parameter Name="Ma" Type="Int32" />
+    </UpdateParameters>
+</asp:SqlDataSource>
+    
     <%-- <p id="ds"> Thành viên nam của lớp CTT11CĐ3A </p>
    <p>
         Thêm Thành Viên Mới:
@@ -59,46 +87,9 @@
 
     </p>
         </div>--%>
-    <h1>Danh Sách Sinh Viên Lớp CTT11CĐ3A</h1>
-    <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" Width="900" Font-Size="Large" DataKeyNames="MaSV" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." ForeColor="#333333" GridLines="None">
-        <AlternatingRowStyle BackColor="White" />
-        <Columns>
-            <asp:BoundField DataField="MaSV" HeaderText="Mã Sinh Viên" ReadOnly="True" SortExpression="MaSV" />
-            <asp:BoundField DataField="TenSV" HeaderText="Tên Sinh Viên" SortExpression="TenSV" />
-            <asp:BoundField DataField="GioiTinh" HeaderText="Giới Tính" SortExpression="GioiTinh" />
-            <asp:BoundField DataField="DiaChi" HeaderText="Địa Chỉ" SortExpression="DiaChi" />
-           <%-- <asp:BoundField DataField="MaKhoa" HeaderText="Mã Khoa" SortExpression="MaKhoa" />--%>
-        </Columns>
-        <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-        <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
-        <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
-        <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
-        <SortedAscendingCellStyle BackColor="#FDF5AC" />
-        <SortedAscendingHeaderStyle BackColor="#4D0000" />
-        <SortedDescendingCellStyle BackColor="#FCF6C0" />
-        <SortedDescendingHeaderStyle BackColor="#820000" />
-</asp:GridView>
-<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:qllhctt11cd3aConnectionString1 %>" DeleteCommand="DELETE FROM [sinhvienct11] WHERE [MaSV] = @MaSV" InsertCommand="INSERT INTO [sinhvienct11] ([MaSV], [TenSV], [GioiTinh], [DiaChi], [MaKhoa]) VALUES (@MaSV, @TenSV, @GioiTinh, @DiaChi, @MaKhoa)" ProviderName="<%$ ConnectionStrings:qllhctt11cd3aConnectionString1.ProviderName %>" SelectCommand="SELECT [MaSV], [TenSV], [GioiTinh], [DiaChi], [MaKhoa] FROM [sinhvienct11]" UpdateCommand="UPDATE [sinhvienct11] SET [TenSV] = @TenSV, [GioiTinh] = @GioiTinh, [DiaChi] = @DiaChi, [MaKhoa] = @MaKhoa WHERE [MaSV] = @MaSV">
-    <DeleteParameters>
-        <asp:Parameter Name="MaSV" Type="String" />
-    </DeleteParameters>
-    <InsertParameters>
-        <asp:Parameter Name="MaSV" Type="String" />
-        <asp:Parameter Name="TenSV" Type="String" />
-        <asp:Parameter Name="GioiTinh" Type="String" />
-        <asp:Parameter Name="DiaChi" Type="String" />
-        <asp:Parameter Name="MaKhoa" Type="String" />
-    </InsertParameters>
-    <UpdateParameters>
-        <asp:Parameter Name="TenSV" Type="String" />
-        <asp:Parameter Name="GioiTinh" Type="String" />
-        <asp:Parameter Name="DiaChi" Type="String" />
-        <asp:Parameter Name="MaKhoa" Type="String" />
-        <asp:Parameter Name="MaSV" Type="String" />
-    </UpdateParameters>
-</asp:SqlDataSource>
-    <br />
+    
+
+    
     <style>
         h1 {
            text-align:left;
