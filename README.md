@@ -7,9 +7,11 @@
   Giao diện có 4 phần.TRANG CHỦ, DANH SÁCH, ALBUM, LIÊN HỆ: <br/>
     -Thay đổi THEME bên góc phải màng hình.<br/>
     +Giao diện của THEME: Galaxy.<br/>
+    .Thanh MENU giao diện nằm dọc bên trái màng hình
     <strong>@TRANG CHỦ</strong><br/>
   <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62645927_2384506938447256_4504209375287574528_n.png?_nc_cat=108&_nc_oc=AQlxEprpS25LwboifMqdFJNAYb0y0epUzEmX2slA5f1PHtTAbSIQSW2vKq7qqvYAo14&_nc_ht=scontent.fdad2-1.fna&oh=4990540f2b176b998d53bff05585ebdc&oe=5D7EC976"/><br/>
     +Giao diện của THEME: Class.<br/>
+    .Thanh MENU giao diện nằm ngang.<br/>
     <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62421155_2358212464504420_8987771060371849216_n.png?_nc_cat=111&_nc_oc=AQmcR2FPwzHOcwM6iEDcjhlUPjtYR06RZrka8Juntr2Y4d-mqI4PGkXFEWjUvvaBns0&_nc_ht=scontent.fdad2-1.fna&oh=6bcc2984603c9cf84dab1b02a08929e8&oe=5D80B852"/><br/>
     Trang <strong>DANH SÁCH</strong><br/>
     <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/62339344_2334523786865956_2636173110067331072_n.png?_nc_cat=111&_nc_oc=AQkAFt4NKbA_DaVIn0lcfCFA-JBfmtbTNe0LaCKR-lLpmI115dihXkoYhGiqDDCCOps&_nc_ht=scontent.fdad2-1.fna&oh=f5de42550c7d64107efcf21ae11a27c3&oe=5D9736EF"/><br/>
@@ -35,7 +37,7 @@
     <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/62427504_2338918076434492_5892879332669390848_n.png?_nc_cat=100&_nc_oc=AQmTGUVLiK__mQW7_0Wt9KTkKt6HZhRppFeJv29w4vuvCs-9nrjEesl-Z2bTCvsMTgA&_nc_ht=scontent.fdad1-1.fna&oh=f06f3439233f06dc57e3c5458bda0859&oe=5D7AEB7C"/><br/>
     <br/>
     CHỌN CHOOSE TO SHOW TIME  để hiển thị giờ<br/>
-    <ìm src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64222867_259208034940219_3840879451973877760_n.png?_nc_cat=110&_nc_oc=AQksDrEjrjOBOdXNuN42tWdenJNI-OY9Z8YWcLkZqnDu_Z_-K9UKk5YZjd83fTKK9ws&_nc_ht=scontent.fdad2-1.fna&oh=bb9f4eae298b3e08447af1ddd7f5e6fc&oe=5D90B15A"/>
+    <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/64222867_259208034940219_3840879451973877760_n.png?_nc_cat=110&_nc_oc=AQksDrEjrjOBOdXNuN42tWdenJNI-OY9Z8YWcLkZqnDu_Z_-K9UKk5YZjd83fTKK9ws&_nc_ht=scontent.fdad2-1.fna&oh=bb9f4eae298b3e08447af1ddd7f5e6fc&oe=5D90B15A"/>
     Đó là tất cả của trang <strong>CTT11CĐ3A VLOG</strong>.<br/>
     <br/>
    <h1><strong>Thank you for watching....</strong></h1><br/>
