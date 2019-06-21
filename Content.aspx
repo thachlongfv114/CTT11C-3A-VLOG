@@ -61,7 +61,7 @@
      
             <p>Một số hình ảnh của lớp:</p>
              
-            <img src= "../Images/ctt11cd3a.jpg" width="70%" height="auto"  /> <br />
+            <img src= "Images/ctt11cd3a.jpg" width="70%" height="auto"  /> <br />
            <p id="time">Được đăng bởi Nguyễn Hữu Thạch vào lúc 12:12</p>
        
     </div>
@@ -70,7 +70,7 @@
    
             <br /> Kỷ yếu năm nhất: CTT11CĐ3A<br />
             <br />
-            <img src= "../Images/kiyeu.jpg" width="70%" height="auto"  /> <br />
+            <img src= "Images/kiyeu.jpg" width="70%" height="auto"  /> <br />
             <p>Xem thêm...<a id="link1" href="Album/kiyeu.aspx">Album Kỉ Yếu</a></p>
         <p id="time">Được đăng bởi Nguyễn Hữu Thạch vào lúc 01:35</p>
             
@@ -82,7 +82,7 @@
         Trao yêu thương để nhận lại yêu thương
         <br />
         <br />
-         <img src= "../Images/hocbong.jpg" width="70%" height="auto"  /> <br />
+         <img src= "Images/hocbong.jpg" width="70%" height="auto"  /> <br />
         <p id="time">Được đăng bởi Nguyễn Hữu Thạch vào lúc 9:02</p>
          
     </div>
@@ -91,7 +91,7 @@
    
         <br /> Đà lạt 2019  <br />   
        
-        <img src= "../Images/dalat.jpg" width="70%" height="auto"  /> <br />
+        <img src= "Images/dalat.jpg" width="70%" height="auto"  /> <br />
         <p>Xem thêm...<a id="link1" href="Album/kiyeu.aspx">Album Đà lạt</a></p>
       
         <p id="time">Được đăng bởi Nguyễn Hữu Thạch vào lúc 19:59</p>
@@ -99,7 +99,7 @@
      <div class="s2">
     <h1 id="date"> Thứ ba ngày 16 tháng 9 năm 2018 </h1>
    
-         <img src= "../Images/hoitrai.jpg" width="70%" height="auto"  /> <br />
+         <img src= "Images/hoitrai.jpg" width="70%" height="auto"  /> <br />
      <p id="time">Được đăng bởi Nguyễn Hữu Thạch vào lúc 23:10</p>
     </div>
   
